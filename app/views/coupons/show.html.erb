@@ -1,1 +1,6 @@
-<div>Store: <%= @coupons.store %></div>
+<div>
+<li>Coupon Name: <%= @coupons.coupon_code %></li>
+<li>Store: <%= @coupons.store %></li>
+<%= link_to("Back To Index", coupons_path)%>
+
+</div>
